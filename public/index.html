@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="green-stand">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+
+<!-- js links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.2/angular-route.js"></script>
+
+<!-- my js files -->
+    <script src="/js/green-stand.module.js" charset="utf-8"></script>
+    <script src="/js/green-stand.main.controller.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+      <div class="container-fluid">
+
+        <div class="row header">
+          <div class="col-md-3">
+            <a href="#">
+              <img class="logo" alt="Green stand" src="./images/logo.jpeg">
+            </a>
+          </div>
+          <div class="col-md-8">
+            <h1 class="header-text">GreenStand</h1>
+            <h2 class="header-sub-text">Nurturing nature and social welfare from the roots up.</h2>
+          </div>
+        </div>
+
+      </div>
+
+    <nav>
+      <div class="container">
+        <ul class="nav nav-pills">
+          <li role="presentation"><a class="nav-link" href="#">Home</a></li>
+          <li role="presentation"><a class="nav-link" href="#">About GreenStand</a></li>
+          <li role="presentation"><a class="nav-link" href="#">TreeTracker Project</a></li>
+          <li role="presentation"><a class="nav-link" href="#">Get Involved</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ng-view>See the app...</ng-view>
+
+  </body>
+</html>

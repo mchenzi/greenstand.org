@@ -1,0 +1,27 @@
+.logo {
+  height: 200px;
+  width: 200px;
+}
+
+.header {
+  margin: 40px 0 20px 0;
+}
+.header-text {
+  color: #649300;
+  font-size: 5rem;
+}
+
+.header-sub-text {
+color: #020202;
+font-family: 'Homemade Apple', cursive;
+font-size: 2rem;
+}
+
+.nav-link {
+  color: #649300;
+}
+
+.img-full-width {
+  width: 100%;
+  hdight: auto;
+}
