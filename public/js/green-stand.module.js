@@ -6,26 +6,31 @@ Router.$inject = ["$routeProvider"]
 function Router ($routeProvider) {
   $routeProvider
     .when('/', {
-      templateUrl : '/templates/home.html',
+      templateUrl : '/html/home.html',
       controller : 'mainController',
       controllerAs : 'main'
     })
-    // .when('/registerTeacher', {
-    //   templateUrl : '/html/registerTeacher.html',
-    //   controller : 'homeController',
-    //   controllerAs : 'home'
-    // })
-    // .when('/teacher', {
-    //   templateUrl : '/html/teacher.html',
-    //   controller : 'teacherController',
-    //   controllerAs : 'teacher'
-    // })
-    // .when('/student', {
-    //   templateUrl : '/html/student.html',
-    //   controller : 'studentController',
-    //   controllerAs : 'student'
-    // })
-    // .otherwise({
-    //   redirectTo: '/'
-    // });
+    .when('/about', {
+      templateUrl : '/html/about.html',
+      controller : 'mainController',
+      controllerAs : 'main'
+    })
+    .when('/tree-tracker', {
+      templateUrl : '/html/tree-tracker.html',
+      controller : 'treeTrackerController',
+      controllerAs : 'treeTracker'
+    })
+    .when('/get-involved', {
+      templateUrl : '/html/get-involvedt.html',
+      controller : 'getInvolvedController',
+      controllerAs : 'getInvolved'
+    })
+    .when('/cms', {
+      templateUrl : '/html/cms.html',
+      controller : 'cmsController',
+      controllerAs : 'cms'
+    })
+    .otherwise({
+      redirectTo: '/'
+    });
 }

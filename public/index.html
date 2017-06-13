@@ -1,48 +1,55 @@
 <!DOCTYPE html>
 <html ng-app="green-stand">
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <title>GreenStand</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!-- CSS links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css" integrity="sha256-itWEYdFWzZPBG78bJOOiQIn06QCgN/F0wMDcC4nOhxY=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
 
 <!-- js links -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js" integrity="sha256-Nd2xznOkrE9HkrAMi4xWy/hXkQraXioBg9iYsBrcFrs=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.2/angular-route.js"></script>
 
-<!-- my js files -->
+<!-- local js files -->
     <script src="/js/green-stand.module.js" charset="utf-8"></script>
     <script src="/js/green-stand.main.controller.js" charset="utf-8"></script>
   </head>
 
   <body>
-      <div class="container-fluid">
 
-        <div class="row header">
-          <div class="col-md-3">
-            <a href="#">
-              <img class="logo" alt="Green stand" src="./images/logo.jpeg">
-            </a>
-          </div>
-          <div class="col-md-8">
-            <h1 class="header-text">GreenStand</h1>
-            <h2 class="header-sub-text">Nurturing nature and social welfare from the roots up.</h2>
-          </div>
-        </div>
+    <div class="row header">
 
+      <div class="small-6 medium-3 large-2 small-offset-3 medium-offset-0 column align-center">
+        <a ng-href="#!/"><img class="logo" src="./images/logo.jpeg" alt=""></a>
       </div>
 
-    <nav>
-      <div class="container">
-        <ul class="nav nav-pills">
-          <li role="presentation"><a class="nav-link" href="#">Home</a></li>
-          <li role="presentation"><a class="nav-link" href="#">About GreenStand</a></li>
-          <li role="presentation"><a class="nav-link" href="#">TreeTracker Project</a></li>
-          <li role="presentation"><a class="nav-link" href="#">Get Involved</a></li>
+      <div class="small-12 medium-9 large-10 column">
+        <h1 class="header-text">GreenStand</h1>
+        <h4 class="header-sub-text">Nurturing nature and social welfare from the roots up.</h4>
+      </div>
+
+    </div>
+
+      <nav class="menu-centered">
+        <ul class="menu">
+          <li class="nav-link"><a ng-href="#!/">
+            Home</a></li>
+          <li class="nav-link"><a ng-href="#!/about">
+            About  GreenStand</a></li>
+          <li class="nav-link"><a ng-href="#!/tree-tracker">
+            TreeTracker Project</a></li>
+          <li class="nav-link"><a ng-href="#!/get-involved">
+            Get Involved</a></li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+
+
+
 
     <ng-view>See the app...</ng-view>
 

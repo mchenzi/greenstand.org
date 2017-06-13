@@ -1,24 +1,34 @@
 .logo {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 
 .header {
-  margin: 40px 0 20px 0;
+  margin: 40px 0 0 0;
+  /*border: 3px solid red;*/
 }
 .header-text {
   color: #649300;
-  font-size: 5rem;
+  /*font-size: 4rem;*/
 }
 
 .header-sub-text {
 color: #020202;
 font-family: 'Homemade Apple', cursive;
-font-size: 2rem;
+/*font-size: 1.25rem;*/
 }
 
-.nav-link {
+/*.column {
+  border: 2px solid black;
+}*/
+
+.menu a {
   color: #649300;
+}
+
+.menu a:hover {
+  color: white;
+  background-color: #649300;
 }
 
 .img-full-width {
