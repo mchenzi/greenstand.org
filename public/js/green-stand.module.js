@@ -21,7 +21,7 @@ function Router ($routeProvider) {
       controllerAs : 'treeTracker'
     })
     .when('/get-involved', {
-      templateUrl : '/html/get-involvedt.html',
+      templateUrl : '/html/get-involved.html',
       controller : 'getInvolvedController',
       controllerAs : 'getInvolved'
     })

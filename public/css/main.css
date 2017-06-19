@@ -18,9 +18,9 @@ font-family: 'Homemade Apple', cursive;
 /*font-size: 1.25rem;*/
 }
 
-/*.column {
-  border: 2px solid black;
-}*/
+nav {
+  margin: 1rem 0 2rem 0;
+}
 
 .menu a {
   color: #649300;

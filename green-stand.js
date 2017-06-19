@@ -24,6 +24,6 @@ app.use(
 // Routes(app);
 
 app.server - app.listen(3000, ()=> {
-  console.log("Server running on port 3000".america);
-  console.log("WOOF".zebra);
+  console.log("Server running on port 3000".rainbow);
+  console.log("WOOF".trap);
 })
