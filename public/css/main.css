@@ -3,11 +3,7 @@
   width: 150px;
 }
 
-.header {
-  margin: 40px 0 0 0;
-  /*border: 3px solid red;*/
-}
-.header-text {
+.brand-text {
   color: #649300;
   /*font-size: 4rem;*/
 }
@@ -24,11 +20,15 @@ nav {
 
 .menu a {
   color: #649300;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
 }
 
 .menu a:hover {
   color: white;
   background-color: #649300;
+  transition: 1s;
 }
 
 .img-full-width {
