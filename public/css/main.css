@@ -1,8 +1,17 @@
-.logo {
-  height: 150px;
-  width: 150px;
+.title-bar {
+  background-color: white;
 }
 
+.logo {
+  height: auto;
+  width: 100%;
+  /*background-image: url("/images/logo-144px.png");*/
+  
+}
+
+.logo-link {
+  width: 100%;
+}
 .brand-text {
   color: #649300;
   /*font-size: 4rem;*/

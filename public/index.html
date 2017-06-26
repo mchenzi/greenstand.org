@@ -20,94 +20,35 @@
   </head>
 
   <body>
-    <div class="title-bar" data-responsive-toggle="main-header" data-hide-for="medium">
-      <div class="row">
-        <div class="small-6 columns">
-          <ul class="menu">
-            <li class="menu-text">
-              <img src="./images/logo-36px.svg" alt="GreenStand">
-            </li>
-            <li class="menu text brand-text">
-              <h5>GreenStand</h5>
-            </li>
-          </ul>
-        </div>
-        <div class="small-2 columns">
-          <ul class="menu">
-            <li class="menu-text">
-              <button class="menu-icon" type="button" data-toggle="main-nav"></button>
-            </li>
-          </ul>
-        </div>
+    <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="medium">
+      <button class="menu-icon dark" type="button" data-toggle="main-nav"></button>
+      <!--<div class="title-bar-title brand-text">GreenStand</div>-->
+    </div>
+
+    <div class="row">
+      <div class="small-3 medium-2 columns">
+        <img class="logo" src="images/logo-144px.png" alt="GreenStand">
+      </div>
+      <div class="small-9 medium-10 columns">
+        <h2 class="brand-text">GreenStand</h2>
+        <h6 class="header-sub-text">Nurturing nature and social welfare from the roots up.</h6>
+      </div>
+    </div>
+    <div class="row" id="main-nav">
+      <div class="small-12 columns">
+        <ul class="dropdown vertical medium-horizontal menu" data-dropdown-menu>
+          <!--<li-->
+          <!--  class="menu-text brand-text">-->
+          <!--  <h2>GreenStand</h2>-->
+          <!--</li>-->
+          <li><a ng-href="#!/">Home</a></li>
+          <li><a ng-href="#!/about">About</a></li>
+          <li><a ng-href="#!/tree-tracker">Tree Tracker</a></li>
+          <li><a ng-href="#!/get-involved">Get Involved</a></li>
+        </ul>
       </div>
     </div>
 
-    <div class="row" id="main-header">
-      <div class="medium-4 columns">
-        <a ng-href="#!/">
-          <img class="logo" src="./images/logo-144px.png" alt="GreenStand">
-        </a>
-      </div>
-      <div class="medium-8 columns">
-        <h4 class="header-sub-text">Nurturing nature and social welfare from the roots up.</h4>
-      </div>
-
-      <div class="row">
-        <div class="medium-12 columns" id="main-nav">
-          <ul class="dropdown vertical medium-horizontal menu" data-dropdown-menu>
-            <li class="menu-text brand-text">
-              <h2>GreenStand</h2>
-            </li>
-            <li><a ng-href="#!/">Home</a></li>
-            <li><a ng-href="#!/about">About</a></li>
-            <li><a ng-href="#!/tree-tracker">Tree Tracker</a></li>
-            <li><a ng-href="#!/get-involved">Get Involved</a></li>
-          </ul>
-        </div>
-      </div>
-
-
-
-    </div>
-
-    <!-- <header class="title-bar">
-      <a ng-href="#!/">
-        <img class="logo" src="./images/logo.jpeg" alt="">
-      </a>
-
-    <div class="small-12 medium-9 large-10 column">
-      <h1 class="header-text">GreenStand</h1>
-      <h4 class="header-sub-text">Nurturing nature and social welfare from the roots up.</h4>
-    </div>
-
-  </header>
-  <nav>
-    <ul class="menu small-12 columns">
-      <li class="menu-text brand-text">
-          <h2>GreenStand</h2>
-      </li>
-      <li class="nav-link">
-        <a ng-href="#!/">
-          Home
-        </a>
-      </li>
-      <li class="nav-link">
-        <a ng-href="#!/about">
-          About  GreenStand
-        </a>
-      </li>
-      <li class="nav-link">
-        <a ng-href="#!/tree-tracker">
-          TreeTracker Project
-        </a>
-      </li>
-      <li class="nav-link">
-        <a ng-href="#!/get-involved">
-          Get Involved
-        </a>
-      </li>
-    </ul>
-  </nav> -->
 
     <ng-view>See the app...</ng-view>
 
