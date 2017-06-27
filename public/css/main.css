@@ -1,4 +1,9 @@
-.logo {
+.title-bar {
+  background-color: white;
+  margin-bottom: -2rem;
+}
+
+.img-full-width {
   width: 100%;
   height: auto;
 }
@@ -8,14 +13,31 @@
   /*font-size: 4rem;*/
 }
 
-.header-sub-text {
+.header {
+  margin-top: 2rem;
+}
+
+.header-text {
 color: #020202;
 font-family: 'Homemade Apple', cursive;
-/*font-size: 1.25rem;*/
+margin-top: 1.5rem;
+padding-left: 1rem;
+}
+
+.mobile-header-text {
+  color: #020202;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-align: center;
 }
 
 nav {
-  margin: 1rem 0 2rem 0;
+  margin-bottom: 1rem;
+}
+
+.menu {
+  padding: 0;
 }
 
 .menu a {
@@ -31,7 +53,3 @@ nav {
   transition: 1s;
 }
 
-.img-full-width {
-  width: 100%;
-  hdight: auto;
-}

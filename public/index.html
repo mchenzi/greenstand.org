@@ -20,42 +20,39 @@
   </head>
 
   <body>
-    <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="medium">
-      <div class="row">
-        <div class="small-6 columns">
-          <ul class="menu">
-            <li class="menu-text">
-              <img src="./images/logo-36px.svg" alt="GreenStand">
-            </li>
-            <li class="menu text brand-text">
-              <h5>GreenStand</h5>
-            </li>
-          </ul>
-        </div>
-        <div class="small-2 columns">
-          <ul class="menu">
-            <li class="menu-text">
-              <button class="menu-icon" type="button" data-toggle="main-nav"></button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
 
-    <div class="row" id="main-header">
-      <div class="small-3 medium-2 columns">
+    <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="large">
+      <div class="row">
+        <div class="small-9 medium-10 columns">
+          <div class="title-bar-title row column">
+            <span>
+              <button class="menu-icon dark" type="button" data-toggle="main-nav"></button>
+            </span>
+            <strong class="brand-text">GreenStand</strong>
+          </div> <!-- title-bar-title -->
+          <div class="row column">
+            <p class="mobile-header-text">Nurturing nature and social welfare from the roots up.</p>
+          </div> 
+        </div> <!-- small-10 -->
+        <div class="small-3 medium-2 columns">
+          <img class="img-full-width" src="./images/logo-144px.png" alt="GreenStand">
+        </div>   
+      </div> <!-- row -->
+    </div> <!-- title-bar -->
+
+    <div class="row header">
+      <div class="large-2 columns show-for-large">
         <a ng-href="#!/">
-          <img class="logo" src="./images/logo-144px.png" alt="GreenStand">
+          <img class="img-full-width" src="./images/logo-144px.png" alt="GreenStand">
         </a>
       </div>
-      <div class="small-9 medium-10 columns">
-        <h4 class="header-sub-text">Nurturing nature and social welfare from the roots up.</h4>
-      </div>
-
-      <div class="row">
-        <div class="medium-12 columns" id="main-nav">
-          <ul class="dropdown vertical medium-horizontal menu" data-dropdown-menu>
-            <li class="menu-text brand-text">
+      <div class="large-10 columns">
+        <div class="row column show-for-large">
+          <h5 class="header-text">Nurturing nature and social welfare from the roots up.</h5>
+        </div>
+        <nav class="row column" id="main-nav"> <!-- nav-row -->
+          <ul class="dropdown vertical large-horizontal menu data-dropdown-menu">
+            <li class="menu-text brand-text show-for-large">
               <h2>GreenStand</h2>
             </li>
             <li><a ng-href="#!/">Home</a></li>
@@ -63,12 +60,9 @@
             <li><a ng-href="#!/tree-tracker">Tree Tracker</a></li>
             <li><a ng-href="#!/get-involved">Get Involved</a></li>
           </ul>
-        </div>
-      </div>
-
-    </div>
-
-
+        </nav> <!-- nav-row --> 
+      </div> <!-- header-text and nav column -->
+    </div> <!-- header -->
 
     <ng-view>See the app...</ng-view>
 
