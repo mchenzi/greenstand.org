@@ -1,26 +1,13 @@
 .title-bar {
   background-color: white;
-<<<<<<< HEAD
   margin-bottom: -2rem;
 }
 
 .img-full-width {
   width: 100%;
   height: auto;
-=======
 }
 
-.logo {
-  height: auto;
-  width: 100%;
-  /*background-image: url("/images/logo-144px.png");*/
-  
->>>>>>> 662bd848b1f6f83cc89f5eeefbcd91504f66120d
-}
-
-.logo-link {
-  width: 100%;
-}
 .brand-text {
   color: #649300;
   /*font-size: 4rem;*/
@@ -66,3 +53,18 @@ nav {
   transition: 1s;
 }
 
+.green-stand-btn {
+  padding: 1rem;
+  color: #649300;
+  border: 1px solid #649300;
+  border-radius: 3px;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+
+.green-stand-btn:hover {
+  color: white;
+  background-color: #649300;
+  transition: 1s;
+}
