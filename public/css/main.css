@@ -1,13 +1,26 @@
 .title-bar {
   background-color: white;
+<<<<<<< HEAD
   margin-bottom: -2rem;
 }
 
 .img-full-width {
   width: 100%;
   height: auto;
+=======
 }
 
+.logo {
+  height: auto;
+  width: 100%;
+  /*background-image: url("/images/logo-144px.png");*/
+  
+>>>>>>> 662bd848b1f6f83cc89f5eeefbcd91504f66120d
+}
+
+.logo-link {
+  width: 100%;
+}
 .brand-text {
   color: #649300;
   /*font-size: 4rem;*/

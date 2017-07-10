@@ -11,7 +11,7 @@ var express         = require('express'),
 // mongoose.connect('mongodb://localhost/green-stand');
 
 var app = express();
-
+var port = process.env.PORT || 3000;
 
 // Middleware
 app.use(
@@ -23,7 +23,7 @@ app.use(
 // give routes.js express app object
 // Routes(app);
 
-app.server - app.listen(3000, ()=> {
-  console.log("Server running on port 3000".rainbow);
-  console.log("WOOF".trap);
+app.listen(port, ()=> {
+  console.log(("Server running on port" + port).rainbow);
+  console.log("WOOF".random);
 })
