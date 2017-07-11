@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="medium-6 small-centered columns text-center"
+    *ngFor="let member of teamMembers">
+    <div class="card member-box">
+      <div class="card-image">
+        <img class="member-pic" src="{{member.picture}}" style="height: 100px;">
+      </div>
+      <div class="card-section">
+        <h2>{{ member.name }}</h2>
+        <h5>{{ member.title }}</h5>
+      </div>
+      <div class="card-section">
+        <p>{{ member.info }}</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -10,11 +10,12 @@ import { HomeComponent } from './home/home.component';
 import { GetInvolvedComponent } from './get-involved/get-involved.component';
 import { GetInvolvedFormComponent } from './get-involved/get-involved-form/get-involved-form.component';
 import { PaypalComponent } from './get-involved/paypal/paypal.component';
+import { AboutComponent } from './about/about.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'get-involved', component: GetInvolvedComponent }
-  // { path: 'about', component: AboutComponent },
+  { path: 'get-involved', component: GetInvolvedComponent },
+  { path: 'about', component: AboutComponent },
 ];
 
 @NgModule({
@@ -24,7 +25,8 @@ const appRoutes: Routes = [
     HomeComponent,
     GetInvolvedComponent,
     GetInvolvedFormComponent,
-    PaypalComponent
+    PaypalComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
