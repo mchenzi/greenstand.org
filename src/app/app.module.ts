@@ -11,6 +11,7 @@ import { GetInvolvedComponent } from './get-involved/get-involved.component';
 import { GetInvolvedFormComponent } from './get-involved/get-involved-form/get-involved-form.component';
 import { PaypalComponent } from './get-involved/paypal/paypal.component';
 import { AboutComponent } from './about/about.component';
+import { HttpService } from './http.service';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -34,7 +35,7 @@ const appRoutes: Routes = [
     HttpModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [HttpService],
   bootstrap: [AppComponent]
 })
 

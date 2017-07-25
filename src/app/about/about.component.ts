@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Http, Response } from '@angular/http';
+import 'rxjs/Rx';
 
+import { HttpService } from '../http.service';
 import { TeamMember } from './team-member.model';
 
 @Component({
@@ -10,7 +13,7 @@ import { TeamMember } from './team-member.model';
 
 export class AboutComponent implements OnInit {
   
-  
+  // teamMembers = [];
 // get all this in some database
   teamMembers: TeamMember[] = [
     new TeamMember('Tom Morrison, Phd', 'Founder, Ecologist, Conservation Biologist', 'Tom  founded Greenstand because “it’s a really cool idea”. In Tom-ese, that means it combines his passion for science and technology with life-changing and world-changing work. His love for big data, research and complex and challenging applications of technology make him the perfect fit as our visionary, organizational leader, data monitor, chief of biodiversity… and several other titles we invented to make him feel as special and integral as he is.', '../../assets/images/team-members/TomMorrison.jpg'),
@@ -24,10 +27,23 @@ export class AboutComponent implements OnInit {
   ]
 
 
-  constructor() { }
-
+  // constructor(private http: Http) { }
+  constructor (private httpService: HttpService) {}
+  
   ngOnInit() {
     console.log("about page!");
+      
+    this.httpService.getTeam()
+      .subscribe(
+        (team: any[]) => console.log(team),
+        (error) => console.log(error)
+      );
+      
+    // this.http.post('https://treetracker-24de7.firebaseio.com/team-members.json', this.teamMembers)
+    //   .subscribe(
+    //     (response) => console.log(response),
+    //     (error) => console.log(error)
+    //   );
   }
 
 }
