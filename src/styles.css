@@ -9,7 +9,7 @@
 }
 
 .brand-text {
-  color: #649300;
+  color: #37a511;
   /*font-size: 4rem;*/
 }
 
@@ -41,7 +41,7 @@ nav {
 }
 
 .menu a {
-  color: #649300;
+  color: #37a511;
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s;
@@ -49,14 +49,14 @@ nav {
 
 .menu a:hover {
   color: white;
-  background-color: #649300;
+  background-color: #37a511;
   transition: 1s;
 }
 
 .green-stand-btn {
   padding: 1rem;
   color: #649300;
-  border: 1px solid #649300;
+  border: 1px solid #37a511;
   border-radius: 3px;
   -webkit-transition: .5s;
   -o-transition: .5s;
@@ -65,6 +65,7 @@ nav {
 
 .green-stand-btn:hover {
   color: white;
-  background-color: #649300;
+  background-color: #37a511;
+  /*background-color: #649300;*/
   transition: 1s;
 }
