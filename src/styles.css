@@ -18,14 +18,16 @@
 }
 
 .header-text {
-color: #020202;
+color: #56320a;
+/* color: #020202; */
 font-family: 'Homemade Apple', cursive;
 margin-top: 1.5rem;
 padding-left: 1rem;
 }
 
 .mobile-header-text {
-  color: #020202;
+  color: #56320a;
+  /* color: #020202; */
   font-family: 'Homemade Apple', cursive;
   font-size: 1rem;
   margin-top: 1rem;
