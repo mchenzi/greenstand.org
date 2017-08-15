@@ -14,10 +14,7 @@ import { TeamMember } from './team-member.model';
 export class AboutComponent implements OnInit {
   teamMembers: TeamMember[] = [];
 
-  // 
-
-  // constructor(private http: Http) { }
-  constructor (private httpService: HttpService, private http: Http) {}
+  constructor (private httpService: HttpService) {}
 
   ngOnInit() {
     console.log('about page!');

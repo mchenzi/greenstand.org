@@ -1,0 +1,13 @@
+.simple-panel {
+    margin: 2rem 0;
+    /* border: 1px solid #37a511; */
+    /* background-color: rgba(127, 255, 0, .1); */
+    background-color: rgba(235,255,230, .25);
+    box-shadow: 1px 1px 1px rgba(0,0,0, .075);
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+/* RGB(235,255,230) */

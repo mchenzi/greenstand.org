@@ -1,3 +1,7 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .title-bar {
   background-color: white;
   margin-bottom: -2rem;
@@ -10,6 +14,7 @@
 
 .brand-text {
   color: #37a511;
+  font-family: 'Kreon', serif;
   /*font-size: 4rem;*/
 }
 
@@ -57,7 +62,8 @@ nav {
 
 .green-stand-btn {
   padding: 1rem;
-  color: #649300;
+  /* color: #649300; */
+  color: #37a511;
   border: 1px solid #37a511;
   border-radius: 3px;
   -webkit-transition: .5s;
@@ -70,4 +76,20 @@ nav {
   background-color: #37a511;
   /*background-color: #649300;*/
   transition: 1s;
+}
+
+.img-container {
+  position: relative;
+}
+
+.overlay-text {
+  font-family: 'Kreon', serif;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  line-height: 1;
 }

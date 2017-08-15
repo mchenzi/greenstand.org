@@ -1,0 +1,8 @@
+.menu-icon {
+    margin-right: 1rem;
+}
+
+.menu-icon.dark {
+    height: 20px;
+    width: 25px;
+}
