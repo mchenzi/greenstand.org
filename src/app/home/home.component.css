@@ -1,36 +1,67 @@
-.img-container {
+.baby-tree {
     position: relative;
-    min-height: 300px;
-    background-image: url('./src/app/assets/images/baby-tree.jpg');
+    height: 500px;
+    background-image: url('/assets/images/baby-tree.jpg');
     background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
 }
 
-.img-full-width {
+/* .img-full-width {
     width: 100%;
-    height: auto;
-}
+    min-height: 300px;
+} */
 /* RGB(235,255,230) */
 
 .overlay-text {
     font-family: 'Kreon', serif;
     position: absolute;
-    top: 50%;
-    left: 25%;
-    text-align: center;
-    font-size: 2rem;
+    top: 2rem;
+    left: 50%;
+    /* text-align: center; */
+    font-size: 4rem;
     font-weight: bold;
     color: white;
     line-height: 1;
+    
 }
 
 .simple-panel {
     margin: 2rem 0;
     /* border: 1px solid #37a511; */
     /* background-color: rgba(127, 255, 0, .1); */
-    background-color: rgba(235,255,230, .25);
+    /* background-color: rgba(235,255,230, .25); */
+    /* background-color: #F5FEEF; */
     box-shadow: 1px 1px 1px rgba(0,0,0, .075);
     border-radius: 5px;
     padding: 1rem;
     text-align: center;
     font-size: 1.25rem;
+    float: none;
+}
+
+.panel-pic {
+    width: 50%;
+    /* float: left; */
+}
+
+.panel-pic::after {
+    clear: both;
+}
+
+@media screen and (max-width: 800px) {
+    .baby-tree {
+        height: 300px;
+    }
+
+    .overlay-text {
+        top: 1rem;
+        font-size: 2rem;
+        
+    }
+
+    .simple-panel {
+        font-size: 1rem;
+    }
 }
