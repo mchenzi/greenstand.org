@@ -1,3 +1,8 @@
+.title-bar {
+    background-color: white;
+    margin-bottom: -2rem;
+}
+
 .menu-icon {
     margin-right: 1rem;
 }
@@ -5,4 +10,46 @@
 .menu-icon.dark {
     height: 20px;
     width: 25px;
+}
+
+.header-text {
+    color: #56320a;
+    /* color: #020202; */
+    font-family: 'Homemade Apple', cursive;
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+}
+
+.mobile-header-text {
+    color: #56320a;
+    /* color: #020202; */
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.header {
+    margin: 2rem;
+}
+
+nav {
+    margin-bottom: 1rem;
+}
+  
+.menu {
+    padding: 0;
+}
+
+.menu a {
+    color: #37a511;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #37a511;
+    transition: 1s;
 }

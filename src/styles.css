@@ -2,62 +2,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.title-bar {
-  background-color: white;
-  margin-bottom: -2rem;
-}
-
-.img-full-width {
-  width: 100%;
-  height: auto;
-}
-
 .brand-text {
   color: #37a511;
   font-family: 'Kreon', serif;
   /*font-size: 4rem;*/
-}
-
-.header {
-  margin: 2rem;
-}
-
-.header-text {
-color: #56320a;
-/* color: #020202; */
-font-family: 'Homemade Apple', cursive;
-margin-top: 1.5rem;
-padding-left: 1rem;
-}
-
-.mobile-header-text {
-  color: #56320a;
-  /* color: #020202; */
-  font-family: 'Homemade Apple', cursive;
-  font-size: 1rem;
-  margin-top: 1rem;
-  text-align: center;
-}
-
-nav {
-  margin-bottom: 1rem;
-}
-
-.menu {
-  padding: 0;
-}
-
-.menu a {
-  color: #37a511;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s;
-}
-
-.menu a:hover {
-  color: white;
-  background-color: #37a511;
-  transition: 1s;
 }
 
 .green-stand-btn {
@@ -78,18 +26,5 @@ nav {
   transition: 1s;
 }
 
-.img-container {
-  position: relative;
-}
 
-.overlay-text {
-  font-family: 'Kreon', serif;
-  position: absolute;
-  top: 50%;
-  left: 25%;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  color: white;
-  line-height: 1;
-}
+

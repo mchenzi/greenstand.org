@@ -1,3 +1,28 @@
+.img-container {
+    position: relative;
+    min-height: 300px;
+    background-image: url('./src/app/assets/images/baby-tree.jpg');
+    background-size: cover;
+}
+
+.img-full-width {
+    width: 100%;
+    height: auto;
+}
+/* RGB(235,255,230) */
+
+.overlay-text {
+    font-family: 'Kreon', serif;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    line-height: 1;
+}
+
 .simple-panel {
     margin: 2rem 0;
     /* border: 1px solid #37a511; */
@@ -9,5 +34,3 @@
     text-align: center;
     font-size: 1.25rem;
 }
-
-/* RGB(235,255,230) */
