@@ -8,6 +8,10 @@ body {
   /*font-size: 4rem;*/
 }
 
+.img-full-width {
+  width: 100%;
+}
+
 .green-stand-btn {
   padding: 1rem;
   /* color: #649300; */
@@ -35,23 +39,4 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-}
-
-footer {
-  font-size: 12px;
-  text-align: center;
-}
-
-footer p {
-  display: inline-block;
-  padding-left: 28px;
-}
-
-footer a {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-footer a:hover {
-  text-decoration: none;
 }

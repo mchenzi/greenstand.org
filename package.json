@@ -24,6 +24,7 @@
     "@types/leaflet": "^1.0.66",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
+    "firebase-tools": "^3.9.2",
     "foundation-sites": "^6.3.1",
     "leaflet": "^1.1.0",
     "npm-font-open-sans": "^1.0.3",
