@@ -1,17 +1,3 @@
-.title-bar {
-    background-color: white;
-    margin-bottom: -2rem;
-}
-
-.menu-icon {
-    margin-right: 1rem;
-}
-
-.menu-icon.dark {
-    height: 20px;
-    width: 25px;
-}
-
 .header-text {
     color: #56320a;
     /* color: #020202; */
@@ -20,25 +6,33 @@
     padding-left: 1rem;
 }
 
-.mobile-header-text {
+/* .mobile-header-text {
     color: #56320a;
-    /* color: #020202; */
     font-family: 'Homemade Apple', cursive;
     font-size: 1rem;
     margin-top: 1rem;
     text-align: center;
+} */
+
+/* used in big and mobile navs */
+.nav-logo {
+    width: 40px;
 }
 
-.header {
-    margin: 2rem;
+.nav-horizontal {
+    list-style: none;
+    padding: 1rem .5rem 1rem;
 }
 
-nav {
-    margin-bottom: 1rem;
-}
-  
-.menu {
+.nav-horizontal-item {
+    display: inline-block;
+    margin-right: 1rem;
     padding: 0;
+}
+
+.menu {
+    font-size: 1.5rem;
+    padding: 1rem 0;
 }
 
 .menu a {
@@ -46,10 +40,60 @@ nav {
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 1rem 3rem;
 }
 
 .menu a:hover {
     color: white;
     background-color: #37a511;
     transition: 1s;
+    text-decoration: none;
+}
+
+/* mobile nav stuff */
+.mobile-menu {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: #F5FEEF;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    padding-left: 1rem; 
+}
+
+/* large */
+@media screen and (min-width: 1024px) {
+    .small {
+        display: none;
+    }
+    .nav-logo {
+        width: 200px;
+    }
+    nav h3 {
+        font-size: 4rem;
+    }
+}
+
+/* medium */
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    .small {
+        display: none;
+    }
+    .nav-logo {
+        width: 150px;
+    }
+    nav h3 {
+        font-size: 3rem;
+    }
+}
+
+/* small */
+@media screen and (max-width: 639px) {
+    .med {
+        display: none;
+    }
 }

@@ -26,5 +26,32 @@ body {
   transition: 1s;
 }
 
+/* for absolute positioning of child elements */
+.parent {
+  position: relative;
+}
 
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
+footer {
+  font-size: 12px;
+  text-align: center;
+}
+
+footer p {
+  display: inline-block;
+  padding-left: 28px;
+}
+
+footer a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
