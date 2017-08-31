@@ -14,11 +14,6 @@
     text-align: center;
 } */
 
-/* used in big and mobile navs */
-.nav-logo {
-    width: 40px;
-}
-
 .nav-horizontal {
     list-style: none;
     padding: 1rem .5rem 1rem;
@@ -26,7 +21,7 @@
 
 .nav-horizontal-item {
     display: inline-block;
-    /* margin-right: 1rem; */
+    margin-right: 1.5rem;
     padding: 0;
 }
 
@@ -52,22 +47,30 @@
     text-decoration: none;
 }
 
-/* mobile nav stuff */
+.mobile-nav-button {
+    font-size: 2rem;
+    vertical-align: middle;
+    border: none;
+    background-color: #fff;
+    color: #37a511;
+    padding: 0 1rem 0 2rem;
+}
+
 .mobile-menu {
     position: absolute;
     z-index: 5;
     top: 0;
     left: 0;
     background-color: #F5FEEF;
-    width: 150px;
+    width: 250px;
     list-style: none;
     padding: 0;
-    padding-left: 1rem; 
+    padding-left: 1rem;
 }
 
-/* large */
+/* large-screens */
 @media screen and (min-width: 1024px) {
-    .small {
+    .small-screen {
         display: none;
     }
     .nav-logo {
@@ -78,9 +81,16 @@
     }
 }
 
-/* medium */
+/* medium-to-big screens */
+@media screen and (min-width: 800px) {
+    nav {
+        width: 800px;
+        margin: 0 auto;
+    }
+}
+/* medium-screens */
 @media screen and (min-width: 640px) and (max-width: 1023px) {
-    .small {
+    .small-screen {
         display: none;
     }
     .nav-logo {
@@ -91,9 +101,12 @@
     }
 }
 
-/* small */
+/* small-screens */
 @media screen and (max-width: 639px) {
-    .med {
+    .medium-screen {
         display: none;
+    }
+    .nav-logo {
+        width: 40px;
     }
 }
