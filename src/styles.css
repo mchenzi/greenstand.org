@@ -2,6 +2,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.gs-container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .brand-text {
   color: #37a511;
   font-family: 'Kreon', serif;

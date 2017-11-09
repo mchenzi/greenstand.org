@@ -27,6 +27,7 @@
 .member-box-section {
     padding-bottom: 2rem;
 }
+
 @media screen and (max-width: 640px){
     .member-box {
         height: auto;

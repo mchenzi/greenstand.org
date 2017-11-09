@@ -14,6 +14,11 @@
     text-align: center;
 } */
 
+nav {
+    max-width: 675px;
+    margin: 0 auto;
+}
+
 .nav-horizontal {
     list-style: none;
     padding: 1rem .5rem 1rem;
@@ -83,15 +88,16 @@
 
 /* medium-to-big screens */
 @media screen and (min-width: 800px) {
-    nav {
-        width: 800px;
-        margin: 0 auto;
-    }
+    
 }
+
 /* medium-screens */
 @media screen and (min-width: 640px) and (max-width: 1023px) {
     .small-screen {
         display: none;
+    }
+    nav {
+        max-width: 550px;
     }
     .nav-logo {
         width: 150px;
@@ -106,6 +112,7 @@
     .medium-screen {
         display: none;
     }
+
     .nav-logo {
         width: 40px;
     }
