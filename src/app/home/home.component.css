@@ -1,4 +1,4 @@
-.baby-tree {
+/* .baby-tree {
     position: relative;
     height: 500px;
     background-image: url('/assets/images/baby-tree.jpg');
@@ -6,7 +6,7 @@
     background-position: 50%;
     background-repeat: no-repeat;
 
-}
+} */
 /* RGB(235,255,230) */
 
 .overlay-text {
@@ -27,12 +27,12 @@
     width: 60%;
     margin: 3rem auto;
     /* border: .5px solid rgb(79, 49, 14); */
-    border: .5px solid #37a511;
+    /* border: .5px solid #37a511; */
     /* background-color: rgb(79, 49, 14); */
     /* background-color: rgba(127, 255, 0, .1); */
     /* background-color: rgba(235,255,230, .25); */
     /* background-color: #F5FEEF; */
-    box-shadow: 1px 1px 1px rgba(0,0,0, .075);
+    /* box-shadow: 1px 1px 1px rgba(0,0,0, .075); */
     border-radius: 5px;
     padding: 2rem 3rem;
     text-align: center;

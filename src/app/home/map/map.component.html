@@ -1,0 +1,19 @@
+<div class="map-container">
+  <p class="overlay-text">{{ title }}</p>
+  <agm-map
+    [latitude]="lat"
+    [longitude]="lng"
+    [zoom]="zoom"
+    [disableDefaultUI]="ui"
+    [zoomControl]="zoomControl"
+    [scrollwheel]="scrollWheel"
+    [mapTypeId]="mapType">
+
+    <agm-marker
+      [latitude]="lat"
+      [longitude]="lng"
+      [iconUrl]="markerUrl">
+      
+    </agm-marker>
+  </agm-map>
+</div>

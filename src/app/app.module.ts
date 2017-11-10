@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
+import { AgmCoreModule } from '@agm/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -14,6 +15,7 @@ import { AboutComponent } from './about/about.component';
 import { HttpService } from './http.service';
 import { FooterComponent } from './footer/footer.component';
 import { CycleComponent } from './home/cycle/cycle.component';
+import { MapComponent } from './home/map/map.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -31,13 +33,17 @@ const appRoutes: Routes = [
     PaypalComponent,
     AboutComponent,
     FooterComponent,
-    CycleComponent
+    CycleComponent,
+    MapComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBRQvvfmfP-8gX8gJHRYAUpkrWadQX4jK0'
+    })
   ],
   providers: [HttpService],
   bootstrap: [AppComponent]

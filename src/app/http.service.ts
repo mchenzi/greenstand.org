@@ -15,4 +15,11 @@ export class HttpService {
         //         return team;
         // });
     }
+    postAllTrees(trees: any[]) {
+        return this.http.post('https://treetracker-24de7.firebaseio.com/trees.json', trees);
+    }
+
+    getTrees() {
+        return this.http.get('https://treetracker-24de7.firebaseio.com/trees.json');
+    }
 }
