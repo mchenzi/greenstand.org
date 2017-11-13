@@ -7,13 +7,14 @@
     [disableDefaultUI]="ui"
     [zoomControl]="zoomControl"
     [scrollwheel]="scrollWheel"
-    [mapTypeId]="mapType">
+    [mapTypeId]="mapType"
+    (centerChange)="centerChanged($event)">
 
     <agm-marker
-      [latitude]="lat"
-      [longitude]="lng"
+      *ngFor="let tree of trees"
+      [latitude]="tree.lat"
+      [longitude]="tree.lng"
       [iconUrl]="markerUrl">
-      
     </agm-marker>
   </agm-map>
 </div>

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
-import 'rxjs/Rx';
+// import 'rxjs/Rx';
 
 @Injectable()
 export class HttpService {
@@ -15,11 +15,13 @@ export class HttpService {
         //         return team;
         // });
     }
-    postAllTrees(trees: any[]) {
-        return this.http.post('https://treetracker-24de7.firebaseio.com/trees.json', trees);
-    }
+
+    // just used this post to post data to firebase db.
+    // postAllTrees(trees: any[]) {
+    //     return this.http.post('https://treetracker-24de7.firebaseio.com/trees.json', trees);
+    // }
 
     getTrees() {
-        return this.http.get('https://treetracker-24de7.firebaseio.com/trees.json');
+        return this.http.get('./assets/trees.json');
     }
 }
