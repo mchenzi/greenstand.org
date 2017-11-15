@@ -15,7 +15,7 @@ teamMembers: TeamMember[] = [
     ),
     new TeamMember(
       'David Ezra Jay',
-      'Co-Founder',
+      'Co-Founder, Aviator',
       'David has spent a decade volunteering with humanitarian organizations looking for solutions to poverty- driven environmental issues. He believes this project can provide widespread environmentally-sound employment, improving the lives of impoverished people worldwide. He looks forward to seeing Greenstand obviate the devastation of fragile landscapes by clear cutting trees for charcoal and subsistence agriculture. He loves to defy gravity, whether it’s in an airplane or on a tree swing with his kids.',
       '../../assets/images/team-members/David-Ezra-Jay.jpg'
     ),
