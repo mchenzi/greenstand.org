@@ -1,34 +1,10 @@
 <nav>
-  <!-- <div class="container-fluid"> -->
-    <ul class="nav-horizontal">
-      <li class="nav-horizontal-item small-screen">
-        <button 
-          type="button" 
-          class="mobile-nav-button" 
-          (click)="navBtnClick()">
-          <span class="glyphicon glyphicon-menu-hamburger"></span>
-          <span class="sr-only">Toggle navigation</span>
-        </button> 
-      </li>
-      <li class="nav-horizontal-item">
-        <a routerLink="/">
-          <img class="nav-logo" alt="GreenStand" src="../assets/images/Hermites_large-clear.png">
-        </a>  
-      </li>
-      <li class="nav-horizontal-item">
-        <h3 class="brand-text">GreenStand</h3>
-      </li>
-      <li class="nav-horizontal-item menu medium-screen">
-        <a routerLink="/">
-          Home
-        </a>
-      </li>
-      <li class="nav-horizontal-item menu medium-screen">
-        <a routerLink="/about">
-          About
-        </a>
-      </li>
-    </ul>
-  <!-- </div> -->
+  <a routerLink="/">
+    <img class="nav-logo" alt="GreenStand" src="../assets/images/Hermites_large-clear.png">
+  </a>
+  <div class="brand-text-container">
+    <h3 class="brand-text">GreenStand</h3>
+    <p class="tag-line">Tree Tracking for Social and Environmental Improvement</p>
+  </div>
 </nav>
  
