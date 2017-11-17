@@ -1,27 +1,6 @@
-.overlay-text {
-    font-family: 'Kreon', serif;
-    /* position: absolute; */
-    /* top: 2rem; */
-    /* left: 50%; */
-    text-align: right;
-    font-size: 5rem;
-    font-weight: bold;
-    color: white;
-    /* line-height: 1; */
-    padding: 3rem 2rem 0 0;
-    
-}
-
 .simple-panel {
     width: 60%;
     margin: 3rem auto;
-    /* border: .5px solid rgb(79, 49, 14); */
-    /* border: .5px solid #37a511; */
-    /* background-color: rgb(79, 49, 14); */
-    /* background-color: rgba(127, 255, 0, .1); */
-    /* background-color: rgba(235,255,230, .25); */
-    /* background-color: #F5FEEF; */
-    /* box-shadow: 1px 1px 1px rgba(0,0,0, .075); */
     border-radius: 5px;
     padding: 2rem 3rem;
     text-align: center;
@@ -40,14 +19,8 @@
 
 @media screen and (max-width: 800px) {
 
-    .overlay-text {
-        padding: 1.5rem 1rem 0 0;
-        font-size: 3rem;
-        
-    }
-
     .simple-panel {
         font-size: 1.5rem;
-        width: 80%;
+        width: 100%;
     }
 }

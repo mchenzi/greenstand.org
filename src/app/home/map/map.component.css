@@ -23,8 +23,13 @@ agm-map {
     border-radius: 5px;
 }
 
+@media screen and (max-width: 800px) {
+    .overlay-text {
+        font-size: 3rem;
+    }
+}
 @media screen and (max-width: 500px) {
     .overlay-text {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }

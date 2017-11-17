@@ -1,7 +1,9 @@
 /* body {
   font-family: 'Open Sans', sans-serif;
 } */
-
+* {
+  box-sizing: border-box;
+}
 .gs-container {
   max-width: 1000px;
   margin-left: auto;

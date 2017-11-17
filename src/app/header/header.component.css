@@ -75,7 +75,7 @@ nav h3 {
     }
     nav {
         max-width: 450px;
-        padding: 2rem 0 1rem 0;
+        padding: 1rem 0 1rem 0;
     }
     .nav-logo {
         width: 100px;
@@ -92,14 +92,14 @@ nav h3 {
 /* small-screens */
 @media screen and (max-width: 500px) {
     nav {
-        padding: 2rem 1rem 1rem 2rem;
+        padding: 1rem 1rem 1rem 2rem;
     }
     .medium-screen {
         display: none;
     }
 
     .nav-logo {
-        width: 40px;
+        width: 60px;
     }
 
     nav h3 {
