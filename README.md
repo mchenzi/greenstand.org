@@ -12,6 +12,6 @@
 1. clone the repo
 1. run `npm install` in the console
 1. run `ng serve` and open a window in your browser at localhost:4200
-1. Oh yeah, make sure you have a code editor like [VS Code(https://code.visualstudio.com/)] or [Atom](https://atom.io/)
+1. Oh yeah, make sure you have a code editor like [VS Code](https://code.visualstudio.com/) or [Atom](https://atom.io/)
 1. start coding and see what happens!
 
