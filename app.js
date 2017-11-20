@@ -12,11 +12,11 @@ app.use(
 //   morgan,
   bodyParser.urlencoded({extended : true}),
   bodyParser.json(),
-  express.static('dist')
+  express.static('public')
 );
 
 app.get('/', (req, res)=>{
-    res.sendFile('index.html', {root : './dist'});
+    res.sendFile('index.html', {root : './public'});
   });
 // Listen for connections
 const port = 8080;
